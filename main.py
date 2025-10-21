@@ -13,8 +13,8 @@ from shot import Shot
 def main():
     pygame.init()
     print("Starting Asteroids!")
-    print("Screen width:", SCREEN_WIDTH)
-    print("Screen height:", SCREEN_HEIGHT)
+    #print("Screen width:", SCREEN_WIDTH)
+    #print("Screen height:", SCREEN_HEIGHT)
 
     # Create the game window
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
