@@ -50,6 +50,10 @@ def main():
             if asteroid.collide_with(player):
                 print("Game Over!")
                 sys.exit()
+            for shot in shots:
+                if asteroid.collide_with(shot):
+                    asteroid.split()
+                    shot.kill()
 
         screen.fill((0, 0, 0))  # Fill the screen with black
 
